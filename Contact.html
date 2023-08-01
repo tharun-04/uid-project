@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amrita hotels</title>
+
+	<link rel="shortcut icon" href="images/1234.ico" type="image/x-icon">
+<style>
+	.topnav {
+  margin-left: 440px;
+  overflow: hidden;
+  background-color: #112d4e;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #f9f7f7;
+  color: #3f72af;
+}
+
+.topnav a.active {
+  background-color: #a6e3e9;
+  color: white;
+}
+
+
+
+
+
+  
+  table { 
+    display: table;
+    border-collapse: separate;
+    border-spacing: 10px;
+    border-color: gray;
+    
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #112d4e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #3f72af;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  img {
+    display: block;
+    margin-left: 100px;
+    margin-right: auto;
+  }
+
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+  
+	</style>
+</head>
+<body style="background-color: #ebfffa;">
+
+	<br><br><br><br><br>
+
+
+    <img src="images/logo.png" alt="logo" height="250" class="center">
+
+    <br><br><br><br><br><br>
+   
+    <div style="background-color: #112d4e">
+
+
+
+
+
+
+
+
+	<div class="topnav">
+
+        <a href="fp.html">Home</a>
+        <a href="overview.html">About</a>
+        <a href="Register.html">Register</a>
+        <a href="booking.html">Booking</a>
+        <a href="covid.html">COVID-19</a>
+        <a class="active" href="Contact.html">Contact us</a>
+		<a href="ProjectRoom/html project/Amrita_Taverna_R&B.html">Restaurants</a>
+
+      </div> </div>
+        
+    	<table>
+			<tr>
+				
+				<th>
+					<h2>Contact Us</h2>
+					<div class="container">
+						<form action="/action_page.php">
+						  <div class="row">
+							<div class="col-25">
+							  <label for="fname">Full Name</label>
+							</div>
+							<div class="col-75">
+							 <input type="text" id="fname" name="fullname" placeholder="Your name..">
+							</div>
+						  </div>
+						  <div class="row">
+							<div class="col-25">
+							 <label for="mail">Email Id</label>
+							</div>
+							<div class="col-75">
+							  <input type="text" id="mail" name="mail" placeholder="Your email id..">
+							</div>
+						  </div>
+						  <div class="row">
+							<div class="col-25">
+							 <label for="phn">Phone Number</label>
+							</div>
+							<div class="col-75">
+							  <input type="text" id="phn" name="phn" placeholder="Your Phone Number">
+							</div>
+						  </div>
+						  <div class="row">
+							<div class="col-25">
+							  <label for="state">About Which hotel You Want to Talk</label>
+							</div>
+							<div class="col-75">
+								<select id="state" name="state">
+								<option value="Chennai">Chennai</option>
+							<option value="Mumbai">Mumbai</option>
+							<option value="Delhi">Delhi</option>
+							<option value="Kolkata">Kolkata</option> 
+							<option value="Hyderabad">Hyderabad</option>
+							  </select>
+							</div>
+						  </div>
+						  <div class="row">
+							<div class="col-25">
+							  <label for="subject">Subject</label>
+							</div>
+							<div class="col-75">
+							  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+							</div>
+						  </div>
+						  <div class="row">
+							<input type="submit" value="Submit">
+						  </div>
+						</form>
+					  </div>
+					  
+
+				</th>
+				<td>
+					<img src="images/contact.png" alt="" width="900" height="600">
+				</td>
+			</tr>
+		</table>
+		
+			
+</body>
+</html>
